@@ -12,12 +12,7 @@ const Home=()=>{
               I'm Priadarshni Muthukumar
             </h2>
             <p className=" text-black dark:text-gray-300 text-justify py-4 max-w-md">
-            I am an ambitious and hardworking student, who always perseveres to
-            achieves the best results. I believe in sincerity, perfectionism and above all
-            Positive Thinking. Coming from a Technical Background, I am well aware
-            of the current technologies and is working towards understanding the
-            same. I value the job, which would give me the opportunity to apply my
-            knowledge and provide me with an environment that stimulates learning.
+            As a dedicated Software Engineer, I am committed to delivering high-quality solutions and continuously improving my skills." I believe in sincerity, perfectionism, and above all, positive thinking. With a strong technical background, I stay updated with the latest technologies and continuously work towards deepening my understanding. I seek opportunities that allow me to apply my knowledge while fostering an environment of continuous learning and growth.
             </p>
             <div>
                   <Link to="Portfolio" smooth duration={500} className="group text-white text-xl w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer">

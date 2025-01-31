@@ -8,10 +8,7 @@ const About=()=>{
             </div>
             <p className="text-xl text-justify mt-20">
                 
-I am currently pursuing 4th year in Btech Computer Science and Engineering from Vellore Institute of Technology, 
-Vellore. I completed my schooling from Our Own English High School Sharjah, UAE. To begin with, my hobbies are 
-gardening and playing chess. I like to see my balcony green and elegant. Coming to chess, 
-I ensure to play atleast one game every day.
+            I am a Software Engineer working in SHELL, Bangalore. I graduated with bachelor's degree in Computer Science VIT, Vellore. I completed my schooling from Our Own English High School Sharjah, UAE. To begin with, my hobbies are gardening and playing chess. I like to see my balcony green and elegant. Coming to chess, I ensure to play atleast one game every day.
 
             </p>
             <br/>
@@ -19,7 +16,7 @@ I ensure to play atleast one game every day.
             “The Harder you work for something, the greater you’ll feel when you achieve it” - that is what I believe in. 
             I am good public speaker and perfectionist. Giving a brief overview about my technical journey, 
             I started programming with C followed by basic C++ and Python. Currently, I use java for coding problems. 
-            My fields of interest are Blockchain and Cyber Security. I also like Web Development and has done a 
+            My fields of interest are Blockchain and Aritificial Intelligence. I also like Web Development and has done a 
             few projects related to the same. I am more of a Frontend Developer than Backend. 
             Thank you for taking your time. Hope you have a nice day!
             </p>

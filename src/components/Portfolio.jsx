@@ -1,15 +1,15 @@
 import React from 'react'
 import pet from '../images/portimg/petshop.png'
 import book from '../images/portimg/book.png'
-import pdc from '../images/portimg/pdc.png'
 import news from '../images/portimg/news.png'
 import prison from '../images/portimg/prison.png'
 import quiz from '../images/portimg/quiz.png'
+import anxietydisorder from '../images/portimg/anxietydisorder.png'
 const Portfolio=()=>{
     const arr=[
         {
             id:1,
-            src:pet
+            src:anxietydisorder
         },
         {
             id:2,
@@ -17,7 +17,7 @@ const Portfolio=()=>{
         },
         {
             id:3,
-            src:pdc
+            src:pet
         },
         {
             id:4,
@@ -45,7 +45,7 @@ const Portfolio=()=>{
                     <div key={id} className="shadow-md shadow-gray-600 rounded-lg hover:scale-110 duration-200">
                     <img src={src} alt=""  classsName="rounded-md duration-200 hover:scale-105"/>
                     <div className="flex items-center justify-center h-[50px] hover:bg-gray-500">
-                    <button className="px-6 py-3 duration-200">Learn More</button>
+                    <button onClick={() => window.location.href = "https://github.com/Priadarshni2112?tab=repositories"} className="px-6 py-3 duration-200">Learn More</button>
                     </div>
                 </div>
                 ))

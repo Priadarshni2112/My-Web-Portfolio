@@ -10,7 +10,7 @@ import {BsFillMoonFill} from 'react-icons/bs'
 import {BsFillSunFill} from 'react-icons/bs'
 import {useState,useEffect} from 'react'
 function App() {
-  const [theme,setTheme]=useState("light");
+  const [theme,setTheme]=useState("dark");
   const [isActive, setIsActive] = useState(true);
   useEffect(()=>{
     if(theme==="dark"){
@@ -26,7 +26,7 @@ function App() {
     <div class="mainn">
       <div className="flex flex-row justify-between h-20 w-[100%] shadow-2xl fixed bg-white dark:bg-black">
       <div>
-      <NavBar />
+      <NavBar/>
       </div>
       <div className="hidden md:flex mr-5 px-4 py-5">
         <button className="cursor-pointer justify-center items-center bg-white dark:bg-black relative hidden md:flex" onClick={handleThemeSwitch}>
